@@ -1,0 +1,20 @@
+.labels {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  padding: 5px;
+  margin-top: auto;
+  cursor: pointer;
+  .label {
+    font-size: 14px;
+    padding: 5px;
+    background: #2c2f33;
+    border-radius: 10px;
+    color: #99aab5;
+    font-weight: 500;
+    transition: 0.5s;
+    &:hover {
+      color: #fff;
+    }
+  }
+}

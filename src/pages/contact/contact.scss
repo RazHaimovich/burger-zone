@@ -1,0 +1,22 @@
+#contact {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  form {
+    width: 100%;
+    background: #35383d;
+    padding: 10px;
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    .form-input {
+      display: grid;
+      grid-template-columns: 1fr 3fr;
+      label {
+        font-size: 18px;
+      }
+    }
+  }
+}

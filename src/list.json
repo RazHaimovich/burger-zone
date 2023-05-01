@@ -1,0 +1,132 @@
+{
+  "restaurants": [
+    {
+      "name": "McDonald's",
+      "address": "123 Main Street, Anytown USA",
+      "picture_url": "https://burgerzone.razhaimovich.com/logos/mcDonalds.png",
+      "rank": 3.5,
+      "labels": ["Burgers", "Fries"],
+      "description": "A fast-food chain known for its burgers, fries, and various other menu items."
+    },
+    {
+      "name": "KFC",
+      "address": "456 Elm Street, Anycity USA",
+      "picture_url": "https://burgerzone.razhaimovich.com/logos/kfc.png",
+      "rank": 2.5,
+      "labels": ["Chicken", "Fries"],
+      "description": "A fast-food chain that specializes in fried chicken, as well as sides such as fries and coleslaw."
+    },
+    {
+      "name": "Burger King",
+      "address": "789 Oak Street, Anystate USA",
+      "picture_url": "https://burgerzone.razhaimovich.com/logos/burgerKing.png",
+      "rank": 4.5,
+      "labels": ["Burgers", "Fries"],
+      "description": "A fast-food chain that offers burgers, fries, and other items, including chicken sandwiches and salads."
+    },
+    {
+      "name": "Wendy's",
+      "address": "101 Maple Avenue, Anytown USA",
+      "picture_url": "https://burgerzone.razhaimovich.com/logos/wendys.png",
+      "rank": 1,
+      "labels": ["Burgers", "Fries"],
+      "description": "A fast-food chain known for its burgers, fries, and frosties."
+    },
+    {
+      "name": "Taco Bell",
+      "address": "555 Pine Street, Anycity USA",
+      "picture_url": "https://burgerzone.razhaimovich.com/logos/tacoBell.png",
+      "rank": 5,
+      "labels": ["Tacos", "Burritos"],
+      "description": "A fast-food chain that serves Mexican-inspired dishes, such as tacos, burritos, and nachos."
+    },
+    {
+      "name": "Subway",
+      "address": "777 Oak Avenue, Anystate USA",
+      "picture_url": "https://burgerzone.razhaimovich.com/logos/subway.png",
+      "rank": 3,
+      "labels": ["Sandwiches", "Salads"],
+      "description": "A fast-food chain that specializes in sandwiches and salads made to order."
+    },
+    {
+      "name": "Pizza Hut",
+      "address": "222 Spruce Street, Anytown USA",
+      "picture_url": "https://burgerzone.razhaimovich.com/logos/pizzaHut.png",
+      "rank": 2,
+      "labels": ["Pizza", "Garlic Bread"],
+      "description": "A fast-food chain that serves pizza, wings, and sides such as garlic bread and breadsticks."
+    },
+    {
+      "name": "Domino's Pizza",
+      "address": "333 Birch Avenue, Anycity USA",
+      "picture_url": "https://burgerzone.razhaimovich.com/logos/dominosPizza.png",
+      "rank": 4,
+      "labels": ["Pizza", "Garlic Bread"],
+      "description": "A fast-food chain that specializes in pizza, as well as sides such as garlic bread and chicken wings."
+    },
+    {
+      "name": "Papa John's",
+      "address": "444 Pine Street, Anystate USA",
+      "picture_url": "https://burgerzone.razhaimovich.com/logos/papaJohns.png",
+      "rank": 1,
+      "labels": ["Pizza", "Garlic Bread"],
+      "description": "A fast-food chain that specializes in pizza, as well as sides such as garlic breadsticks and cheese sticks."
+    },
+    {
+      "name": "Chipotle Mexican Grill",
+      "address": "555 Main Street, Anytown USA",
+      "picture_url": "https://burgerzone.razhaimovich.com/logos/chipotle.png",
+      "rank": 4,
+      "labels": ["Mexican", "Burritos"],
+      "description": "A fast-food chain that serves Mexican-inspired dishes, such as burritos, bowls, and tacos."
+    },
+    {
+      "name": "Five Guys",
+      "address": "777 Maple Avenue, Anycity USA",
+      "picture_url": "https://burgerzone.razhaimovich.com/logos/fiveGuys.png",
+      "rank": 4.5,
+      "labels": ["Burgers", "Fries"],
+      "description": "A fast-food chain known for its burgers, fries, and hot dogs made to order."
+    },
+    {
+      "name": "Chick-fil-A",
+      "address": "1234 Oak Street, Anytown USA",
+      "picture_url": "https://burgerzone.razhaimovich.com/logos/chickFilA.png",
+      "rank": 4.5,
+      "labels": ["Chicken", "Sandwiches"],
+      "description": "A fast-food chain that specializes in chicken sandwiches, as well as other items such as waffle fries and shakes."
+    },
+    {
+      "name": "Panda Express",
+      "address": "5678 Maple Avenue, Anycity USA",
+      "picture_url": "https://burgerzone.razhaimovich.com/logos/pandaExpress.png",
+      "rank": 3.5,
+      "labels": ["Chinese", "Rice Bowls"],
+      "description": "A fast-food chain that serves Chinese-American cuisine, such as orange chicken and chow mein."
+    },
+    {
+      "name": "Dunkin' Donuts",
+      "address": "9101 Pine Street, Anystate USA",
+      "picture_url": "https://burgerzone.razhaimovich.com/logos/dunkinDonuts.png",
+      "rank": 3,
+      "labels": ["Coffee", "Donuts"],
+      "description": "A fast-food chain that specializes in coffee and baked goods, including donuts, bagels, and muffins."
+    },
+    {
+      "name": "Starbucks",
+      "address": "2345 Elm Street, Anytown USA",
+      "picture_url": "https://burgerzone.razhaimovich.com/logos/starbucks.png",
+      "rank": 4,
+      "labels": ["Coffee", "Tea", "Pastries"],
+      "description": "A coffeehouse chain that serves a variety of coffee and tea drinks, as well as pastries and other snacks."
+    },
+    {
+      "name": "P.F. Chang's",
+      "address": "1234 Oak Street, Anycity USA",
+      "picture_url": "https://burgerzone.razhaimovich.com/logos/pfChangs.png",
+      "rank": 4.5,
+      "labels": ["Chinese", "Asian Fusion"],
+      "description": "A casual dining restaurant that offers a fusion of Chinese and American cuisine, including dishes like Kung Pao chicken and Mongolian beef."
+    }
+  ]
+}

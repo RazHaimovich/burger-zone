@@ -1,0 +1,17 @@
+{
+  "semi": true,
+  "trailingComma": "es5",
+  "singleQuote": true,
+  "printWidth": 80,
+  "tabWidth": 2,
+  "arrowParens": "always",
+  "jsxSingleQuote": true,
+  "plugins": ["prettier-plugin-sort-imports"],
+  "sortImports": {
+    "ignoreCase": true,
+    "ignoreDeclarationSort": true,
+    "ignoreMemberSort": false,
+    "memberSyntaxSortOrder": ["none", "all", "single", "multiple"],
+    "allowSeparatedGroups": true
+  }
+}
