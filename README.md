@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# BurgerZone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Project Demo: [Click Here](https://burgerzone.razhaimovich.com/)
 
 ## Available Scripts
 
