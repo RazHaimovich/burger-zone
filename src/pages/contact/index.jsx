@@ -1,7 +1,18 @@
-import React from 'react';
+import Modal from '../../components/Modal';
+import React, { useState } from 'react';
 import './contact.scss';
 
 const Contact = () => {
+  const [showModal, setShowModal] = useState({ show: false });
+
+  const openModal = (content) => setShowModal({ show: true, content });
+  const closeModal = () => setShowModal({ show: false });
+
+  const onSubmitHandler = (e) => {
+    openModal('Thanks for your review!');
+    e.preventDefault();
+  };
+
   return (
     <div id='contact'>
       <h2>
@@ -16,7 +27,7 @@ const Contact = () => {
         you as soon as possible. Thank you for choosing BurgerZone, and we look
         forward to hearing from you!
       </p>
-      <form>
+      <form onSubmit={onSubmitHandler}>
         <div className='form-input'>
           <label for='name'>Name:</label>
           <input type='text' id='name' name='name' required />
@@ -34,6 +45,11 @@ const Contact = () => {
           <button type='submit'>Submit</button>
         </div>
       </form>
+      {showModal.show && (
+        <Modal isOpen={showModal.show} onClose={closeModal}>
+          {showModal.content}
+        </Modal>
+      )}
     </div>
   );
 };
