@@ -1,0 +1,27 @@
+#about {
+  .picture-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    .picture-container {
+      align-self: center;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #about {
+    .picture-grid {
+      display: flex;
+      flex-direction: column;
+      .picture-container {
+        text-align: center;
+        img {
+          width: 70%;
+        }
+      }
+    }
+  }
+}
