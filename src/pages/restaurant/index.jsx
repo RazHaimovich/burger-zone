@@ -35,7 +35,7 @@ const Restaurant = ({ restaurants = [] }) => {
     );
     const restaurant = restaurants.find((res) => res.name === urlName);
     setRestaurant(restaurant);
-  }, []);
+  }, [pathname]);
 
   useLayoutEffect(() => {
     setLikedRestaurants(
